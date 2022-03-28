@@ -1,51 +1,11 @@
-let x = 10;
-let y;
-y = 20;
+let result = true;
+let result2 = false;
 
-console.log(x);
-console.log(y);
-console.log("----------------");
+console.log(result);
+console.log(result2);
 
-let z = x + y;
-console.log(z);
-z = x - y;
-console.log(z);
-z = x * y;
-console.log(z);
-z = x / y;
-console.log(z);
-y = 0;
-z = x / y;
-console.log(z);
-console.log("----------------");
+let result3 = 1 < 3;
+let result4 = 1 > 3;
 
-//x = x + 10;
-x += 10;
-console.log(x);
-x *= 10;
-console.log(x);
-x /= 10;
-console.log(x);
-x -= 10;
-console.log(x);
-console.log("----------------");
-
-x++;
-console.log(x);
-x--;
-console.log(x);
-console.log("----------------");
-
-x = 1.5; y = 2.5;
-z = x * y;
-console.log(z);
-console.log("----------------");
-
-console.log(z + 1 + x + y + 10);
-console.log("----------------");
-
-x = 11; y = 3;
-z = x % y;
-console.log(z);
-
-
+console.log(result3);
+console.log(result4);
