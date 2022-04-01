@@ -1,35 +1,37 @@
-let fruits = ["apple", "banana", "cucumber"];
-fruits.pop();
-fruits.push("pear");
-fruits.shift();
-fruits.unshift("apple");
+let a = "Hello!";
+let b = "1";
+let c = 1;
+let d = true;
 
-console.log(fruits);
-console.log(fruits.indexOf("bananana"));
-console.log(fruits[2]);
-fruits.splice(1,1);
-console.log(fruits);
+let sum1 = b + c; //string
+console.log(sum1);
+console.log(typeof(sum1));
 
-// 1 0 0
-// 0 1 0
-// 0 0 1
+let sum2 = Number(b) + c; 
+console.log(sum2);
+console.log(typeof(sum2));
 
-let identityMatrix = [[1,0,0],[0,1,0],[0,0,1]];
+let sum3 = d + b;
+console.log(sum3);
+console.log(typeof(sum3));
 
-console.log(identityMatrix[1][2]);
+let sum4 = d + c;
+console.log(sum4);
+console.log(typeof(sum4));
+console.log(typeof(d));
 
-let fruits2 = fruits.slice(0);
-fruits.pop();
+console.log("-------");
+console.log(c == b);
+console.log(c === b);
+console.log(c == d);
+console.log(c === d);
 
-console.log(fruits);
-console.log(fruits2);
+console.log("*******");
+console.log(undefined == null);
+console.log(undefined === null);
 
-let fruits3 = ["banana", ...fruits2, "cherry", ...fruits];
-fruits2.pop();
-console.log(fruits3); //spread
+console.log([] == 0);
+console.log([] === 0);
 
-let numbers = [4, 5, 7, 2, 1, 9];
-let lowestNumber = Math.min(...numbers);
-console.log(lowestNumber);
-
-console.log(JSON.stringify(fruits3))
+console.log('' == 0);
+console.log('' === 0);
