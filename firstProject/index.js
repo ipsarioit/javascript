@@ -1,15 +1,16 @@
-let x = 11111;
-let y = null;
+let x = 11;
 
-if(x == 10){
-    console.log("found 10");
+switch(x){
+    case 10:
+        console.log("found 10");
+        //break;
+    case 11:
+        console.log("found 11");
+        //break;
+    case 12:
+        console.log("found 12");
+        //break;
+    default:
+        console.log("unknown number");
 }
-else if(x == 11){
-    console.log("found 11");
-}
-else if(x == 12){
-    console.log("found 12");
-}
-else{
-    console.log("unknown number");
-}
+
